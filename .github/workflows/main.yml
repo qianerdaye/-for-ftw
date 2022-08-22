@@ -20,7 +20,7 @@ jobs:
       with:
         python-version: '3.x'
         architecture: 'x64'
-    - run:python.zaoan
+    - run: pip install -r ./requirements.txt && python ./zaoan.py
 
     env:
       APP_ID: ${{ secrets.APP_ID }}
