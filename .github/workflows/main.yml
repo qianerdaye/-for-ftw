@@ -20,7 +20,7 @@ jobs:
       with:
         python-version: '3.x'
         architecture: 'x64'
-    - run:zaoan.py
+    - run:python.zaoan
 
     env:
       APP_ID: ${{ secrets.APP_ID }}
