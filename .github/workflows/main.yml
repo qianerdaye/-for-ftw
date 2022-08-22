@@ -11,7 +11,7 @@ jobs:
 
     steps:
     - name: checkout
-      uses: actions/checkout@v1
+      uses: actions/checkout@v3
       with:
         ref: master
 
@@ -20,7 +20,7 @@ jobs:
       with:
         python-version: '3.x'
         architecture: 'x64'
-    - run: pip install -r ./requirements.txt && python ./zaoan.py
+    - run: pip install -r ./requirement.txt && python ./zaoan.py
 
     env:
       APP_ID: ${{ secrets.APP_ID }}
