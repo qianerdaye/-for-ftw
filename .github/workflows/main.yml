@@ -1,4 +1,4 @@
-name: morning
+name: zaoan
 on:
   schedule:
   - cron:  '0 23 * * *'
@@ -20,4 +20,3 @@ jobs:
       with:
         python-version: '3.x'
         architecture: 'x64'
-    - run:zaoan.py
