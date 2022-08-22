@@ -20,4 +20,4 @@ jobs:
       with:
         python-version: '3.x'
         architecture: 'x64'
-    - run:python ./zaoan.py
+    - run:zaoan.py
